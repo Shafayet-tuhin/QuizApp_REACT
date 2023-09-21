@@ -118,3 +118,27 @@
   .final-result{
     color: rgb(72, 69, 69);
   }
+
+
+  #restart-button{
+    padding:10px;
+    border:none;
+    background-color: #276272;
+    color:white;
+    border-radius: 5px;
+    box-shadow: 3px 3px 2px 1px #65797f;
+    font-size: medium;
+    font-weight: bold;
+    transition: 0.2s;
+    width:100px;
+    margin-top: 40px;
+    margin-left: 100px;
+    bottom: 15px;
+  }
+  #restart-button:active{
+    box-shadow:none;    
+  }
+  #restart-button:hover{
+    background-color:  #059ac3;
+    color:white;
+  }
