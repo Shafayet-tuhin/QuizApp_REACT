@@ -7,6 +7,7 @@ function QuizResult(fetch){
          <br />
          <h1>Correct answer </h1>
          <h1> Ratio is  = {(fetch.score / fetch.totalscore) * 100}%</h1>
+         <button id="restart-button" onClick={()=>window.location.reload()}>Restart</button>
     </div>
    )
 }
